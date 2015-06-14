@@ -1,0 +1,39 @@
+{
+  "name": "dworkin",
+  "description": "API",
+  "version": "0.1.0",
+  "keywords": [
+    "express",
+    "api"
+  ],
+  "scripts": {
+    "test": "mocha --recursive"
+  },
+  "homepage": "https://github.com/dbalakov/dworkin-static",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:dbalakov/dworkin-static.git"
+  },
+  "bugs": {
+    "url": "https://github.com/dbalakov/dworkin-static/issues"
+  },
+  "license": "MIT",
+  "author": {
+    "name": "Dmitry Balakov",
+    "email": "dmitry@balakov.net",
+    "url": "http://github.com/dbalakov/"
+  },
+  "devDependencies": {
+    "mocha": "~2.1.0",
+    "chai": "~1.10.0",
+    "request": "^2.57.0",
+    "sinon": "~1.12.2"
+  },
+  "dependencies": {
+    "dworkin": "^0.1.0",
+    "express": "^4.12.4",
+    "mincer": "^1.2.5"
+  },
+  "main": "./index.js",
+  "_id": "dworkin-static@0.1.0"
+}
