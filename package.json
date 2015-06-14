@@ -1,5 +1,5 @@
 {
-  "name": "dworkin",
+  "name": "dworkin-plugins",
   "description": "API",
   "version": "0.1.0",
   "keywords": [
@@ -35,5 +35,5 @@
     "mincer": "^1.2.5"
   },
   "main": "./index.js",
-  "_id": "dworkin-static@0.1.0"
+  "_id": "dworkin-plugins@0.1.0"
 }
