@@ -1,7 +1,7 @@
 {
   "name": "dworkin-plugins",
   "description": "API",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "keywords": [
     "express",
     "api"
@@ -32,6 +32,7 @@
   "dependencies": {
     "dworkin": "^0.1.0",
     "express": "^4.12.4",
+    "express-session": "^1.11.3",
     "mincer": "^1.2.5"
   },
   "main": "./index.js",
