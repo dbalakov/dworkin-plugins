@@ -10,7 +10,7 @@ module.exports = function() {
                 (Array.isArray(assets_path) ? assets_path : [assets_path]).forEach(function (path) {
                     mincer_env.appendPath(path);
                 });
-                server.express.use('/assets', Mincer.createServer(mincer_env));
+                server.express.use(route, Mincer.createServer(mincer_env));
             });
         };
     });
